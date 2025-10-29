@@ -1,0 +1,125 @@
+.imagem-bike-container-2-hp {
+  max-width: 460px;
+  display: block;
+  border-radius: 5px;
+}
+
+.container-2-hp {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: auto auto auto;
+  padding: 0px 220px;
+  margin-top: 240px;
+  margin-bottom: 200px;
+  gap: 40px;
+}
+
+.titulo-container-2-hp {
+  grid-column: 1/-1;
+  color: #111111;
+  font-size: 4rem;
+  line-height: 4.5rem;
+  font-weight: 600;
+  font-family: "Poppins", Arial, sans-serif;
+  text-align: start;
+  justify-self: start;
+}
+
+.titulo-bike-container-2-hp {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 600;
+  color: #111111;
+  position: relative;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.titulo-bike-container-2-hp::before {
+  content: "";
+  width: 12px;
+  height: 8px;
+  display: inline-block;
+  position: absolute;
+  background-color: #ffbb00;
+  top: 15px;
+  left: -20px;
+  transition: 0.2s;
+}
+
+.link-container-2-hp-bicicletas:hover .titulo-bike-container-2-hp {
+  transform: translateX(12px);
+}
+
+.link-container-2-hp-bicicletas:hover .titulo-bike-container-2-hp::before {
+  transform: scaleX(2);
+  left: -25px;
+}
+
+.link-container-2-hp-bicicletas {
+  display: inline-block;
+}
+
+.texto-bike-container-2-hp {
+  margin-left: 20px;
+  margin-top: 16px;
+}
+
+.preco-bike-container-2-hp {
+  display: inline-block;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-family: "Roboto", Arial, sans-serif;
+  color: #595959;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+@media (max-width: 1700px) {
+  .container-2-hp {
+    padding: 0px 120px;
+  }
+}
+
+@media (max-width: 1475px) {
+  .container-1-hp-coluna-2 img {
+    max-width: 600px;
+  }
+
+  .container-2-hp {
+    margin-top: 180px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .container-2-hp {
+    padding: 0px 60px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .imagem-bike-container-2-hp {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .imagem-bike-container-2-hp {
+    max-width: 250px;
+  }
+
+  .titulo-container-2-hp {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .titulo-bike-container-2-hp {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .titulo-bike-container-2-hp::before {
+    top: 12px;
+  }
+}
