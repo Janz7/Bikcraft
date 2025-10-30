@@ -7,63 +7,43 @@
 }
 
 body {
-  color: white;
+  color: var(--w);
 }
 
 .background-container-1-hp {
-  background-color: #000000;
-  padding: 0px 220px;
+  background-color: var(--c12);
   padding-bottom: 120px;
 }
 
 .container-1-hp {
   display: grid;
   grid-template-columns: auto auto;
-  max-width: 1440px;
-  margin: 0 auto;
   align-items: center;
 }
 
 .titulo-container-1-hp {
-  color: white;
-  font-size: 4rem;
-  line-height: 4.5rem;
-  font-family: "Poppins", Arial, sans-serif;
-  font-weight: 600;
-  max-width: 15ch;
+  color: var(--w);
   margin-top: 200px;
 }
 
 .texto-colorido {
-  color: #ffbb00;
+  color: var(--p01);
 }
 
 .paragrafo-container-1-hp {
-  font-family: "Roboto", Arial, sans-serif;
-  font-size: 1.5rem;
-  line-height: 2.25rem;
-  color: #b2b2b2;
-  max-width: 40ch;
   margin-top: 32px;
 }
 
 .botao-container-1-hp {
-  color: #332200;
-  display: inline-block;
-  background: linear-gradient(#ffbf00, #f2a50c);
-  font-size: 1.125rem;
-  line-height: 1.5rem;
-  text-transform: uppercase;
-  font-family: "Poppins", Arial, sans-serif;
-  font-weight: 600;
-  padding: 16px 32px;
-  border-radius: 5px;
   margin-top: 20px;
+}
+
+.container-1-hp-coluna-1 {
+  max-width: max-content;
 }
 
 @media (max-width: 1700px) {
   .background-container-1-hp {
-    background-color: #000000;
     padding: 0px 120px;
     padding-bottom: 120px;
   }
@@ -91,7 +71,6 @@ body {
 
 @media (max-width: 1366px) {
   .background-container-1-hp {
-    background-color: #000000;
     padding: 0px 60px;
     padding-bottom: 120px;
   }

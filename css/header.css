@@ -1,5 +1,5 @@
 .background-header {
-  background-color: #000000;
+  background-color: var(--c12);
 }
 
 header {
@@ -20,7 +20,7 @@ header {
 }
 
 .link-nav-header {
-  color: #ffffff;
+  color: var(--w);
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 400;
   font-size: 1.125rem;
@@ -55,7 +55,7 @@ header {
 
   .link-nav-header {
     padding: 10px 20px;
-    background-color: #111111;
+    background-color: var(--c11);
     border-radius: 5px;
   }
 }

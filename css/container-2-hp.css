@@ -8,7 +8,6 @@
   display: grid;
   justify-items: center;
   grid-template-columns: auto auto auto;
-  padding: 0px 220px;
   margin-top: 240px;
   margin-bottom: 200px;
   gap: 40px;
@@ -16,11 +15,7 @@
 
 .titulo-container-2-hp {
   grid-column: 1/-1;
-  color: #111111;
-  font-size: 4rem;
-  line-height: 4.5rem;
-  font-weight: 600;
-  font-family: "Poppins", Arial, sans-serif;
+  color: var(--c11);
   text-align: start;
   justify-self: start;
 }
@@ -30,7 +25,7 @@
   line-height: 2.5rem;
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 600;
-  color: #111111;
+  color: var(--c11);
   position: relative;
   display: block;
   transition: transform 0.3s ease;
@@ -42,7 +37,7 @@
   height: 8px;
   display: inline-block;
   position: absolute;
-  background-color: #ffbb00;
+  background-color: var(--p01);
   top: 15px;
   left: -20px;
   transition: 0.2s;
@@ -71,7 +66,7 @@
   font-size: 1.125rem;
   line-height: 1.5rem;
   font-family: "Roboto", Arial, sans-serif;
-  color: #595959;
+  color: var(--c08);
   font-weight: 500;
   margin-top: 8px;
 }
