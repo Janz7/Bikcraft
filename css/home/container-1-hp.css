@@ -1,9 +1,8 @@
 .container-1-hp-coluna-2 img {
   max-width: 640px;
   border-radius: 5px;
-  position: absolute;
-  top: 100px;
-  right: 220px;
+  height: 100%;
+  object-fit: cover;
 }
 
 body {
@@ -12,12 +11,12 @@ body {
 
 .background-container-1-hp {
   background-color: var(--c12);
-  padding-bottom: 120px;
+  box-shadow: inset 0px -120px 0px var(--w);
 }
 
 .container-1-hp {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
 }
 
@@ -32,6 +31,7 @@ body {
 
 .paragrafo-container-1-hp {
   margin-top: 32px;
+  color: var(--c05);
 }
 
 .botao-container-1-hp {
@@ -40,12 +40,12 @@ body {
 
 .container-1-hp-coluna-1 {
   max-width: max-content;
+  padding-bottom: 60px;
 }
 
 @media (max-width: 1700px) {
   .background-container-1-hp {
     padding: 0px 120px;
-    padding-bottom: 120px;
   }
 
   .container-1-hp-coluna-2 img {
@@ -55,12 +55,13 @@ body {
 
 @media (max-width: 1475px) {
   .container-1-hp-coluna-2 img {
-    max-width: 600px;
+    width: 600px;
   }
 
   .titulo-container-1-hp {
     font-size: 3.5rem;
     line-height: 4rem;
+    margin-top: 150px;
   }
 
   .paragrafo-container-1-hp {
@@ -72,7 +73,6 @@ body {
 @media (max-width: 1366px) {
   .background-container-1-hp {
     padding: 0px 60px;
-    padding-bottom: 120px;
   }
 
   .container-1-hp-coluna-2 img {
@@ -82,19 +82,15 @@ body {
 
 @media (max-width: 1280px) {
   .titulo-container-1-hp {
-    margin-top: 120px;
-  }
-
-  .background-container-1-hp {
-    padding-bottom: 40px;
-  }
-
-  .container-1-hp-coluna-2 img {
-    max-width: 500px;
+    margin-top: 0px;
   }
 }
 
 @media (max-width: 1130px) {
+  .container-1-hp-coluna-1 {
+    padding-bottom: 60px;
+  }
+
   .titulo-container-1-hp {
     font-size: 2.7rem;
     line-height: 3.5rem;
@@ -107,7 +103,7 @@ body {
   }
 
   .container-1-hp-coluna-2 img {
-    max-width: 450px;
+    width: 460px;
   }
 }
 
@@ -118,6 +114,7 @@ body {
     justify-content: center;
     justify-items: center;
     gap: 40px;
+    padding-bottom: 60px;
   }
 
   .container-1-hp-coluna-1 {
@@ -127,8 +124,13 @@ body {
     justify-items: center;
   }
 
+  .container-1-hp-coluna-2 {
+    margin-bottom: 0px;
+  }
+
   .container-1-hp-coluna-2 img {
     position: initial;
+    height: auto;
   }
 
   .titulo-container-1-hp {
@@ -149,7 +151,7 @@ body {
 
 @media (max-width: 550px) {
   .container-1-hp-coluna-2 img {
-    max-width: 350px;
+    width: 350px;
   }
 
   .titulo-container-1-hp {
@@ -167,6 +169,6 @@ body {
 
 @media (max-width: 440px) {
   .container-1-hp-coluna-2 img {
-    max-width: 290px;
+    width: 290px;
   }
 }

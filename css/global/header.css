@@ -24,6 +24,22 @@ header {
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 400;
   font-size: 1.125rem;
+  position: relative;
+}
+
+.link-nav-header::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: var(--w);
+  margin-top: 4px;
+  transition: 0.4s;
+  position: absolute;
+}
+
+.link-nav-header:hover::after {
+  width: 102%;
 }
 
 @media (max-width: 1700px) {
@@ -39,6 +55,16 @@ header {
 
   .link-nav-header {
     font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .link-nav-header::after {
+    display: none;
+  }
+
+  .link-nav-header:hover::after {
+    width: 0;
   }
 }
 
