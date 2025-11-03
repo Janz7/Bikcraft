@@ -1,4 +1,4 @@
-.txt-h1 {
+.font-1-xxl {
   font-size: 4rem;
   line-height: 4.5rem;
   font-family: "Poppins", Arial, sans-serif;
@@ -6,13 +6,136 @@
   max-width: 15ch;
 }
 
-.txt-p {
-  font-family: "Roboto", Arial, sans-serif;
+.font-1-xl {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 600;
+}
+
+.font-1-l {
   font-size: 1.5rem;
   line-height: 2.25rem;
-  max-width: 40ch;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.font-2-l {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.font-2-l-b {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.5%;
+}
+
+.font-1-m,
+.font-1-m-b {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.font-1-m-b {
+  font-weight: 600;
+}
+
+.font-2-m {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 500;
+}
+
+.font-1-s,
+.font-2-s {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.font-2-s {
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.font-2-xs {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.font-1-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 600;
 }
 
 .texto-colorido {
   color: #ffbb00;
+}
+
+@media (max-width: 1475px) {
+  .font-1-xxl {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    margin-top: 150px;
+  }
+
+  .font-2-l {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 1366px) {
+  .font-1-m {
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  .font-1-xxl {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .font-1-xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 1130px) {
+  .font-1-xxl {
+    font-size: 2.7rem;
+    line-height: 3.5rem;
+  }
+
+  .font-2-l {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .font-1-xxl {
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+
+  .font-2-l {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }

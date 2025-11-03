@@ -17,13 +17,11 @@ header {
   flex-direction: row;
   gap: 40px;
   flex-wrap: wrap;
+  line-height: 1.2rem;
 }
 
 .link-nav-header {
   color: var(--w);
-  font-family: "Poppins", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 1.125rem;
   position: relative;
 }
 
@@ -51,10 +49,6 @@ header {
 @media (max-width: 1366px) {
   header {
     padding: 32px 60px;
-  }
-
-  .link-nav-header {
-    font-size: 1.05rem;
   }
 }
 
