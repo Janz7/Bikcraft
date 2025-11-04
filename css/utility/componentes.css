@@ -24,3 +24,27 @@
 .padding-default {
   padding: 0px 220px;
 }
+
+@media (max-width: 1700px) {
+  .padding-default {
+    padding: 0px 120px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .padding-default {
+    padding: 0px 60px;
+  }
+}
+
+@media (max-width: 960px) {
+  .padding-default {
+    padding: 0px 30px;
+  }
+}
+
+@media (max-width: 550px) {
+  .padding-default {
+    padding: 0px 20px;
+  }
+}
