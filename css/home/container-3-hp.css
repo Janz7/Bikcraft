@@ -7,7 +7,7 @@
 
 .background-container-3-hp {
   background-color: var(--c11);
-  box-shadow: inset 0px -80px 0px var(--w), inset 0px 80px 0px var(--w);
+  box-shadow: inset 0px -100px 0px var(--w), inset 0px 100px 0px var(--w);
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -67,6 +67,7 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+  max-width: 35ch;
 }
 
 @media (max-width: 1475px) {
