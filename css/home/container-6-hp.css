@@ -19,6 +19,7 @@
 .cabecalho-container-prata {
   display: flex;
   justify-content: space-between;
+  gap: 40px;
 }
 
 .cabecalho-container-prata h1 {
@@ -73,6 +74,15 @@
   font-size: 1.125rem;
   line-height: 1.5rem;
   font-weight: 400;
+  position: relative;
+}
+
+.lista-seguro-prata li::before {
+  content: url(../../src/logos-e-icones/detalhe-icone-correto.svg);
+  display: block;
+  position: absolute;
+  left: -20px;
+  top: -2px;
 }
 
 .btn-prata {
@@ -103,6 +113,7 @@
 .cabecalho-container-gold {
   display: flex;
   justify-content: space-between;
+  gap: 40px;
 }
 
 .cabecalho-container-gold h1 {
@@ -150,4 +161,92 @@
   font-size: 1.125rem;
   line-height: 1.5rem;
   font-weight: 400;
+  position: relative;
+}
+
+.lista-seguro-gold li::before {
+  content: url(../../src/logos-e-icones/detalhe-icone-correto.svg);
+  display: block;
+  position: absolute;
+  left: -20px;
+  top: -2px;
+}
+
+@media (max-width: 1150px) {
+  .cabecalho-container-prata h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .cabecalho-container-prata h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .cabecalho-container-gold h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .cabecalho-container-gold h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .conteudo-container-6-hp {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .lista-seguro-prata li {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
+  .lista-seguro-gold li {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .cabecalho-container-prata h1 {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+
+  .cabecalho-container-prata h2 {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+
+  .cabecalho-container-gold h1 {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+
+  .cabecalho-container-gold h2 {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+
+  .btn-prata {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  #btn-inscrevase-hp {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    padding: 12px 24px;
+  }
 }
