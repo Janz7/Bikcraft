@@ -17,3 +17,6 @@
 @import "./home/container-4-hp.css";
 @import "./home/container-5-hp.css";
 @import "./home/container-6-hp.css";
+
+/* Página - Bicicletas */
+@import "./bicicletas/bicicletas-geral.css";
