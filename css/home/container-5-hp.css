@@ -3,14 +3,6 @@
   position: relative;
 }
 
-.container-5-hp-background::before {
-  content: url(../../src/logos-e-icones/detalhe-dots.svg);
-  display: block;
-  position: absolute;
-  left: 650px;
-  top: 40px;
-}
-
 .container-5-hp-background::after {
   content: url(../../src/logos-e-icones/detalhe-dots.svg);
   display: block;
