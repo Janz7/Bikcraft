@@ -18,6 +18,7 @@
 
 .lista-bicicletas {
   margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .conteudo-item-lista-bicicletas h2 {
@@ -75,7 +76,15 @@
   grid-template-columns: minmax(280px, 560px) 1fr;
   gap: 40px;
   align-items: center;
-  padding-bottom: 120px;
+}
+
+.item-lista-bicicletas-bg {
+  background-color: var(--c12);
+  padding-bottom: 60px;
+  padding-top: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  box-shadow: 400px 0px 0px 0px inset var(--w);
 }
 
 .itens-inferiores-lista {
@@ -106,6 +115,14 @@
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.span-item-2-bikes::before {
+  content: "R$ 2499";
+}
+
+.span-item-3-bikes::before {
+  content: "R$ 3999";
 }
 
 @media (max-width: 1366px) {
@@ -147,6 +164,10 @@
 
   .conteudo-item-lista-bicicletas h2::before {
     display: none;
+  }
+
+  .item-lista-bicicletas-bg {
+    box-shadow: initial;
   }
 }
 
