@@ -56,3 +56,21 @@
 .nome-contato input {
   padding-right: 0px;
 }
+
+#msg-contato {
+  border: none;
+  background-color: var(--c01);
+  border-radius: 5px;
+  padding: 12px;
+  max-width: 100%;
+  width: 100%;
+  min-width: 100%;
+  height: 160px;
+  min-height: 160px;
+  max-height: 580px;
+}
+
+.botar-enviar-form-contato {
+  border: none;
+  justify-self: start;
+}
