@@ -1,0 +1,58 @@
+.contato-principal-bg {
+  background-color: var(--c11);
+  padding-top: 120px;
+}
+
+.contato-principal {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+}
+
+.contato-principal-info {
+  background-color: var(--c12);
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-bottom: 132px;
+  gap: 60px;
+}
+
+.contato-principal-info h3 {
+  font-weight: 600;
+}
+
+.redes-sociais-footer {
+  margin-top: 60px;
+}
+
+.form-contato {
+  background-color: var(--w);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 60px;
+  gap: 40px;
+}
+
+.form-contato label {
+  display: block;
+}
+
+.form-contato input {
+  padding: 12px;
+  display: block;
+  background-color: var(--c01);
+  border: 1px solid var(--c02);
+  width: 100%;
+  border: 5px;
+  border-radius: 5px;
+}
+
+.email-contato,
+.textarea-contato {
+  grid-column: 1/-1;
+}
+
+.nome-contato input {
+  padding-right: 0px;
+}
